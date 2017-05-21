@@ -1,9 +1,9 @@
 ##BeSiege - Siege inspired http load tester written in Go
 
-###Usage 
+### Usage 
     
     go run Main.go -url=http://target.url/
 
-###Flags
+### Flags
 
         go run Main.go -url=http://target.url/ -concurrency=100 -timeout=1000

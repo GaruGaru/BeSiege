@@ -1,4 +1,4 @@
-##BeSiege - Siege inspired http load tester written in Go
+## BeSiege - Siege inspired http load tester written in Go
 
 ### Usage 
     

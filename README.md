@@ -2,8 +2,8 @@
 
 ### Usage 
     
-    go run Main.go -url=http://target.url/
+    go run main.go -url=http://target.url/
 
 ### Flags
 
-        go run Main.go -url=http://target.url/ -concurrency=100 -timeout=1000
+        go run main.go -url=http://target.url/ -concurrency=100 -timeout=1000

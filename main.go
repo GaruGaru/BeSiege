@@ -131,11 +131,11 @@ func request(client http.Client, url string) bool {
 	resp, err := client.Get(url)
 	if err != nil {
 		fmt.Println(err.Error())
-	} else if resp.StatusCode != 200 {
- 		fmt.Println(resp.StatusCode)
-	}
-	if(resp!=nil){
+	} else if resp != nil {
 		defer resp.Body.Close()
+		if resp.StatusCode != 200 {
+			fmt.Println(resp.StatusCode)
+		}
 	}
 	return err == nil && resp.StatusCode == 200
 }
